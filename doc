@@ -1,0 +1,75 @@
+Note :
+1. Marks Pattern must be a numeric value which can be either a float or an integer
+2. Successive Marks Patterns must be seperated by a comma(,)
+3. All Marks Patterns need not be entered in a single line
+4. If the question is Description enter marks as 0
+5. Marks Pattern of all the questions should be entered
+
+Example:
+	If there are 10 questions of which first five carry 1 marks each, and next four
+	carry 0.5 marks each and the last one is a descriptive(0 marks). Then the marks
+	pattern can be given as:
+	
+	1,1,1,1,1,0.5,0.5,0.5,0.5,0 (Note that there is no comma(,) after the last value)
+
+		(or)
+
+	1,1		            (Since the 'new lines' will be ignored)
+	1,		            (This is one of the many possibilities)
+	1,1
+	0.5,0.5,0.5,
+	0.5,
+	0
+
+
+Note :
+1. Multiple answers must be seperated by a comma(,)
+2. All answers need not be entered on a single line. They can be entered across multiple lines.
+3. Answers of all the questions should be entered
+4. You can choose "Case Sensitive" evaluation, for the 'text answers' to be evaluated Case-Sensitively.
+5. Following values should be used as substitution rule for the respective answers:
+
+	i.   For 'A','B','C',D' enter A,B,C,D respectively
+	ii.  For True use T, and for False use F
+	iii. If the question is a descriptive, enter N
+	iv.  for 'text' answers enclose the text between $ signs
+		example: $Hey! boy? i didn't do nothing!$, $He said,"I didn't do anything!".$
+
+Example:
+
+	If there are 10 questions of which first 9 have answers as A,B,C,D,True,False,This ain't a text answer, True,D, and the last one is a descriptive. Then enter any one of the many possiblities, of which two are shown below:
+
+	A,B,C,D,T,F,$This ain't a text answer$,T,D,N	(There is no comma(,) after the last value)
+	
+	(or)
+	A,B,C,				(Answers can be entered across multiple lines)
+	D,				(This is one of the many possibilities)
+	T,
+	F,$This ain't a text answer$,
+	T,D,N	
+
+
+Note :
+1. Successive Question types must be seperated by a comma(,)
+2. All values need not be entered on a single line. They can be entered across multiple lines.
+3. Question type of all the questions must be entered
+4. Following values should be used as substitution rule for the respective Question types:
+
+	i.   For Multiple choice question, enter M 
+	ii.  For True or False question, enter TF
+	iii. If the question is a descriptive, enter D
+	iv.  for 'text-answers' type questions enter T (Don't confuse it with TF,which stands for True or False)
+
+Example:
+
+	If there are 10 questions of which if the first 4 are Multiple choice, 5th and 6th are True or False type, next 3 are 'text-answer' type of questions, and the last one is a descriptive. Then enter any one of the many possiblities, of which two are shown below:
+
+	M,M,M,M,TF,TF,T,T,T,D	  	(There is no comma(,) after the last value)
+	
+	(or)
+
+	M,M,M				(Answers can be entered across multiple lines)
+	TF,				(This is one of the many possibilities)
+	TF,				(Don't confuse TF with T, TF stands for True or False while T for Text type)
+	T,T,
+	T,D
